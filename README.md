@@ -45,8 +45,32 @@ The percentage is calculated using the following formula:
 
 Percentage = (CGPA - 0.75) * 10
 This formula is based on the official SPPU conversion standard.
+![Screenshot 2025-02-21 201804](https://github.com/user-attachments/assets/b85d180c-3d8f-4b19-bc35-c2ddfaa11302)
 
 
+## Official Research Paper
+
+This project is backed by an officially published research paper in the International Journal of Creative Research Thoughts (IJCRT), Volume 12, Issue 5, May 2024, ISSN: 2320-2882.
+Title: CGPA TO PERCENTAGE CONVERTERAuthors: Prof. Roshni Narkhede, Tanishka Kadam, Priyanka Mohol, Vaishnavi MoreInstitution: Nutan Maharashtra Institute of Engineering and Technology, Pune, MaharashtraAbstract: This research introduces a platform that simplifies the conversion of CGPA to percentage for SPPU students. The project ensures accuracy, eliminates manual calculation errors, and provides a seamless experience using HTML, CSS, and JavaScript.
+For more details, refer to the published paper: IJCRT Website
 
 
+## Contribution
+
+If you would like to improve this tool, feel free to contribute by submitting issues or pull requests on GitHub.
+### Steps to Contribute:
+1.Fork the repository.
+2.Create a new branch with a descriptive name.
+3.Make your changes and commit them with clear messages.
+4.Push to your fork and submit a pull request.
+
+
+## License
+
+This project is open-source and available under the MIT License.
+
+
+## Contact
+
+For any queries or suggestions, feel free to reach out via email at tanishkadeepakkadam@gmail.com or open an issue on GitHub.
 
