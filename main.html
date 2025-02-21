@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CGPA to Percentage Convertor</title>
+  <meta name="description" content="CGPA to Percentage Convertor">
+  <meta name="keywords" content="SPPU, IOIT, CGPA, Percentage, Grade">
+  <meta name="author" content="Vaishnavi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="topbox">
+    <div class="imagediv">
+      <a href="https://www.nmiet.edu.in/" target="_blank" title="NMIET">
+        <img src="ioit.png" id="college_logo" alt="IOIT">
+      </a>
+    </div>
+    <div class="namediv">
+      <a href="https://www.nmiet.edu.in/" target="_blank" title="NMIET">
+        NMIET
+      </a>
+    </div>
+    <div class="deptdiv">Examination Department</div>
+  </div>
+  <div class="mainbox">
+    <div class="title">CGPA to Percentage Convertor</div>
+    <div class="input_row">
+      <div class="name_label">Name:</div>
+      <div class="name_box">
+        <input id="name_input" type="text">
+      </div>
+      <div class="PRN_label">PRN:</div>
+      <div class="PRN_box">
+        <input id="PRN_input" type="texts">
+      </div>
+    </div>
+    <div class="input_row">
+      <div class="CGPA_label">Enter CGPA:</div>
+      <div class="CGPA_box">
+        <input id="cgpa_input" type="number" min="0.00" max="10.00" step="0.01">
+      </div>
+      <div class="input_button">
+        <button id="convert_btn" type="button" onclick="convertCGPA()">Convert</button>
+      </div>
+    </div>
+    <div id="error_msg"></div>
+    <div class="output_table">
+      <table id="opTable">
+        <tr>
+          <td class="col1">CGPA</td>
+          <td id="op_cgpa">-</td>
+        </tr>
+        <tr>
+          <td class="col1">Grade</td>
+          <td id="op_grade">-</td>
+        </tr>
+        <tr>
+          <td class="col1">Percentage</td>
+          <td id="op_per">-</td>
+        </tr>
+        <tr>
+          <td class="col1">Class</td>
+          <td id="op_class">-</td>
+        </tr>
+      </table>
+    </div>
+    <div class="download_button">
+      <button onclick="exportTableToExcel('opTable')">Download as Excel File</button>
+    </div>
+  </div>
+  <div class="bottombox">
+    <div class="credits">
+      Prepared by:<br>Miss. Vaishnavi More <br> SE Comp(B)<br>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
